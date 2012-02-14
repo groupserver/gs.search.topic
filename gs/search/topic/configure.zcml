@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configure xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser"
+  xmlns:five="http://namespaces.zope.org/five"
+  i18n_domain="groupserver">
+  
+  <!--  The site topics provided by AJAX. They are in two parts: a hole
+    -   that goes in the page content, and some JavaScript that fills
+    -   the hole. -->
+  <!--  Ajax hole -->
+  <browser:viewlet name="gs-search-topic-site-topics-ajax-hole"
+    manager="gs.site.home.interfaces.ISiteHomeRightColumn"
+    template="browser/templates/site-topics-ajax-hole.pt"
+    class="gs.viewlet.viewlet.SiteViewlet"
+    permission="zope2.View"
+    weight="10"
+    title="Topics" />
+  <!--  Ajax JavaScript -->
+  <browser:viewlet name="gs-search-topic-site-topics-javascript"
+    manager="gs.site.home.interfaces.ISiteHomeJS"
+    template="browser/templates/site-topics-ajax-js.pt"
+    class="gs.viewlet.viewlet.SiteViewlet"
+    permission="zope2.View"
+    weight="10"
+    title="Topics JavaScript" />
+</configure>
+

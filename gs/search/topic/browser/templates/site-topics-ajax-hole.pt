@@ -1,0 +1,7 @@
+<div id="gs-search-topic-site-topics-ajax-hole">
+  <h2>Latest Topics</h2>
+  <div id="gs-search-topic-site-topics-ajax-hole-list">Loading the 
+    latest topics <img src="/++resource++anim/wait.gif"/>
+  </div><!--gs-search-topic-site-topics-ajax-hole-list-->
+</div><!--gs-search-topic-site-topics-ajax-hole-->
+
