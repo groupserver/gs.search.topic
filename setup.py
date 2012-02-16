@@ -34,6 +34,7 @@ setup(name='gs.search.topic',
         'setuptools',
         'gs.content.js.jquery',
         'gs.site.home',
+        'gs.viewlet',
         # -*- Extra requirements: -*-
     ],
     entry_points="""
