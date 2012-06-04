@@ -1,21 +1,12 @@
-<script type="text/javascript" id="gs-search-topics-site-topics-ajax-js">
-  jQuery.noConflict();
-
-  var GSHideRightCol = function () {
-    jQuery('.rightColumn').fadeOut('slow', GSMakeLeftColNotACol);
-  }
-
-  var GSMakeLeftColNotACol = function () {
-    jQuery('.leftColumn').attr('class', 'not-leftColumn')
-  }
-
-  var GSLoadTopicsOrNot = function(responseText, textStatus, XMLHttpRequest){
-      if ( /.*topic-search-none.*/.test(responseText) ) {
-          setTimeout("GSHideRightCol()", 1);
-      }
-  }
-
-  var uri = "/s/search.ajax?i=0&amp;l=8&amp;";
-   jQuery('#gs-search-topic-site-topics-ajax-hole-list').load(uri, GSLoadTopicsOrNot)
-</script>
-
+<div id="gs-search-topic-site-home-script">
+  <script src="/++resource++jquery-ui-1.8.9.custom.min.js" 
+	  type="text/javascript">&#160;</script>
+  <script src="/++resource++search-20120601.js"
+	  type="text/javascript" >&#160;</script>
+  <script type="text/javascript">
+  var topicSearch = GSSearch('#gs-search-topic-site-home-search', 
+                             '/s/search.ajax', 
+                             0, 6, {}, null);
+  topicSearch.load();
+  </script>
+</div><!--gs-search-topic-site-home-script-->

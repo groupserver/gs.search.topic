@@ -1,7 +1,33 @@
-<div id="gs-search-topic-site-topics-ajax-hole">
-  <h2>Latest Topics</h2>
-  <div id="gs-search-topic-site-topics-ajax-hole-list">Loading the 
-    latest topics <img src="/++resource++anim/wait.gif"/>
-  </div><!--gs-search-topic-site-topics-ajax-hole-list-->
-</div><!--gs-search-topic-site-topics-ajax-hole-->
-
+<div id="gs-search-topic-site-home">
+  <div class="gs-search search" id="gs-search-topic-site-home-search">
+    <div class="gs-search-entry">
+      <input type="text" class="textEntry"/>
+      <button>Search</button>
+    </div>
+    <p id="gs-search-topic-site-home-loading" 
+      class="gs-search-loading" style="display:none;">
+      <img src="/++resource++anim/wait.gif"/> 
+      Loading the topics
+    </p><!--gs-search-topic-site-home-loading-->
+    <div id="gs-search-topic-site-home-latest" 
+	 class="gs-search-results">
+      &#160;
+    </div><!--gs-search-topic-site-home-latest-->
+    <div id="gs-search-topic-site-home-toolbar" 
+	 class="toolbar gs-search-toolbar">
+      <span class="ui-widget-header ui-corner-all">
+        <button id="gs-search-topic-site-home-toolbar-prev"
+		class="gs-search-toolbar-previous">Newer</button>
+        <button id="gs-search-topic-site-home-toolbar-next"
+		class="gs-search-toolbar-next">Older</button>
+      </span>
+    </div><!--gs-search-topic-site-home-toolbar-->
+  </div><!--gs-search-->
+  <div id="gs-search-topic-site-home-tasks">
+    <ul class="inline-list">
+      <li><a type="application/atom+xml" class="alternateATOM"
+	     tal:define="title string:Posts in ${view/siteInfo/name};"
+	     href="/s/search.atom?t=0&amp;f=0&amp;p=1">Web feed</a></li>
+    </ul>
+  </div><!--gs-search-topic-site-home-tasks-->
+</div><!--gs-search-topic-site-home-->
