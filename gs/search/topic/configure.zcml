@@ -3,11 +3,8 @@
   xmlns:browser="http://namespaces.zope.org/browser"
   xmlns:five="http://namespaces.zope.org/five"
   i18n_domain="groupserver">
-  
-  <!--  The site topics provided by AJAX. They are in two parts: a hole
-    -   that goes in the page content, and some JavaScript that fills
-    -   the hole. -->
-  <!--  Ajax hole -->
+
+  <!--The viewlet for the site homepage-->  
   <browser:viewlet name="gs-search-topic-site-topics-ajax-hole"
     manager="gs.site.home.interfaces.ISiteHomeActivity"
     template="browser/templates/site-topics-ajax-hole.pt"
@@ -15,7 +12,12 @@
     permission="zope2.View"
     weight="10"
     title="Topics" />
-  <!--  Ajax JavaScript -->
+  <!--The JavaScript to hide the right-column if there are not topics-->
+  <browser:resource
+    name="gs-search-topic-site-homepage-20120606.js"
+    file="browser/javascript/loadtopic.js"
+    permission="zope2.Public" />
+  <!--The viewlet to include all the JavaScript-->
   <browser:viewlet name="gs-search-topic-site-topics-javascript"
     manager="gs.site.home.interfaces.ISiteHomeJS"
     template="browser/templates/site-topics-ajax-js.pt"
