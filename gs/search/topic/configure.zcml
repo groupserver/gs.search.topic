@@ -9,7 +9,7 @@
     -   the hole. -->
   <!--  Ajax hole -->
   <browser:viewlet name="gs-search-topic-site-topics-ajax-hole"
-    manager="gs.site.home.interfaces.ISiteHomeRightColumn"
+    manager="gs.site.home.interfaces.ISiteHomeActivity"
     template="browser/templates/site-topics-ajax-hole.pt"
     class="gs.viewlet.viewlet.SiteViewlet"
     permission="zope2.View"
