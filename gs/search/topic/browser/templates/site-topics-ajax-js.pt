@@ -1,6 +1,4 @@
 <div id="gs-search-topic-site-home-script">
-  <script src="/++resource++jquery-ui-1.8.9.custom.min.js" 
-	  type="text/javascript">&#160;</script>
   <script src="/++resource++search-20120601.js"
 	  type="text/javascript" >&#160;</script>
   <script type="text/javascript">
