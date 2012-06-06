@@ -32,9 +32,10 @@ setup(name='gs.search.topic',
     zip_safe=True,
     install_requires=[
         'setuptools',
-        'gs.content.js.jquery',
+        'gs.search.base',
         'gs.site.home',
         'gs.viewlet',
+        'Products.GSSearch',
         # -*- Extra requirements: -*-
     ],
     entry_points="""
