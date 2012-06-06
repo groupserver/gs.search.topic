@@ -33,7 +33,7 @@
     template="browser/templates/link.pt"
     class="gs.viewlet.viewlet.SiteViewlet"
     permission="zope2.View"
-    weight="20"
+    weight="10"
     title="Topics Feed" />
 </configure>
 
