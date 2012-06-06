@@ -1,5 +1,5 @@
 <div id="gs-search-topic-site-home-script">
-  <script src="/++resource++search-20120601.js"
+  <script src="/++resource++gs-search-base-js-20120606.js"
 	  type="text/javascript" >&#160;</script>
   <script src="/++resource++gs-search-topic-site-homepage-20120606.js"
 	  type="text/javascript" >&#160;</script>
