@@ -1,0 +1,4 @@
+<link id="gs-search-topic-link" 
+  rel="alternate" type="application/atom+xml" title="Topics"
+  href="/s/search.atom"
+  tal:attributes="title string:Topics on ${view/siteInfo/name}"/>
