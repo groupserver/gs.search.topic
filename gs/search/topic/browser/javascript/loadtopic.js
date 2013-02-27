@@ -1,35 +1,13 @@
 jQuery.noConflict() 
-var GSSearchTopicsSiteHomepage = function () {
-    var go_one_col = function () {
-        var left = null;
 
-        left = jQuery('#gs-site-home-left');
-        left.removeAttr('class');
-    };
-    var handle_load = function(event) {
-        var results = null;
-        var nResults = null;
-        var right = null;
-
-        results = jQuery(event.target);
-        nResults = results.find('.gs-search-result').length;
-        if (nResults === 0) {
-            right = jQuery('#gs-site-home-right');
-            right.fadeOut('slow', 'swing', go_one_col);
-        }
-    };
-    
-    return {
-        init: function() {
-            var searchId = '#gs-search-topic-site-home-search'
-            var topicSearch = GSSearch(searchId, '/s/search.ajax', 0, 6, {}, 
-                                       null);
-            topicSearch.load();
-            jQuery(searchId).bind(topicSearch.RESULTS_LOADED_EVENT,
-                                  handle_load);
-        }//init
-    }
-}();
+function gs_search_topics_site_homepage () {
+    var searchId = '#gs-search-topic-site-home-search'
+    var topicSearch = GSSearch(searchId, '/s/search.ajax', 0, 10, {}, 
+                               null);
+    jQuery('#gs-site-home-activity-tabs li:first-child a').click();
+    topicSearch.load();
+}
 jQuery(document).ready( function () {
-    GSSearchTopicsSiteHomepage.init()
+    gsJsLoader.with_module('/++resource++gs-search-base-js-min-20121217.js',
+                           gs_search_topics_site_homepage);
 });
