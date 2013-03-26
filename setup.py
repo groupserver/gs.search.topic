@@ -1,4 +1,4 @@
-# coding=utf-8
+# -*- coding: utf-8 -*-
 import os
 from setuptools import setup, find_packages
 from version import get_version
@@ -27,18 +27,17 @@ setup(name='gs.search.topic',
     url='http://groupserver.org/',
     license='other',
     packages=find_packages(exclude=['ez_setup']),
-    namespace_packages=['gs', 'gs.search',],
+    namespace_packages=['gs', 'gs.search', ],
     include_package_data=True,
     zip_safe=True,
     install_requires=[
         'setuptools',
-        'gs.search.base',
+        'zope.browserresource',
+        'zope.viewlet',
+        'gs.search.base',  # For the JS
         'gs.site.home',
         'gs.viewlet',
-        'Products.GSSearch',
-        # -*- Extra requirements: -*-
     ],
     entry_points="""
     # -*- Entry points: -*-
     """,)
-
