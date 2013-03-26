@@ -5,7 +5,8 @@
   i18n_domain="groupserver">
 
   <!--The viewlet for the site homepage-->  
-  <browser:viewlet name="gs-search-topic-site-topics-ajax-hole"
+  <browser:viewlet 
+    name="gs-search-topic-site-topics-ajax-hole"
     manager="gs.site.home.interfaces.ISiteHomeActivity"
     template="browser/templates/site-topics-ajax-hole.pt"
     class="gs.viewlet.viewlet.SiteViewlet"
@@ -17,8 +18,13 @@
     name="gs-search-topic-site-homepage-20120606.js"
     file="browser/javascript/loadtopic.js"
     permission="zope2.Public" />
+  <browser:resource
+    name="gs-search-topic-site-homepage-min-20120606.js"
+    file="browser/javascript/loadtopic-min.js"
+    permission="zope2.Public" />
   <!--The viewlet to include all the JavaScript-->
-  <browser:viewlet name="gs-search-topic-site-topics-javascript"
+  <browser:viewlet 
+    name="gs-search-topic-site-topics-javascript"
     manager="gs.site.home.interfaces.ISiteHomeJS"
     template="browser/templates/site-topics-ajax-js.pt"
     class="gs.viewlet.viewlet.SiteViewlet"
@@ -27,7 +33,8 @@
     title="Topics JavaScript" />
 
   <!--The viewlet to link to the Web feed-->
-  <browser:viewlet name="gs-search-topic-link"
+  <browser:viewlet 
+    name="gs-search-topic-link"
     manager="gs.site.home.interfaces.ISiteHomeMetadata"
     for="Products.GSContent.interfaces.IGSSiteFolder"
     template="browser/templates/link.pt"
