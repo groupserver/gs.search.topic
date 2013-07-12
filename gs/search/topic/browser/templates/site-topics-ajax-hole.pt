@@ -19,34 +19,29 @@
          class="gs-search-results">
       &#160;
     </div><!--gs-search-topic-site-home-latest-->
-    <div 
-         class="toolbar gs-search-toolbar">
-      <span class="ui-widget-header ui-corner-all">
-      </span>
-    </div><!--gs-search-topic-site-home-toolbar-->
+    <div id="gs-search-topic-site-home-toolbar" role="toolbar"
+         class="btn-toolbar gs-search-toolbar">
+      <button id="gs-search-topic-site-home-toolbar-prev"
+              aria-controls="gs-search-topic-site-home-latest"
+              aria-flowto="gs-search-topic-site-home-toolbar-next"
+              data-icon="&#x25c3;"
+              class="btn gs-search-toolbar-previous">Newer</button>
+      <ul class="inline-list" id="gs-search-topic-site-home-tasks" 
+          role="navigation">
+        <li>
+          <a type="application/atom+xml" class="alternateATOM icon-alone"
+             tal:define="title string:Posts in ${view/siteInfo/name};"
+             href="/s/search.atom?t=0&amp;f=0&amp;p=1">
+            <span aria-hidden="true" data-icon="&#xe003;"></span>
+            <span class="screen-reader-text">Web feed</span>
+          </a>
+        </li>
+      </ul>
+      <button id="gs-search-topic-site-home-toolbar-next"
+              aria-controls="gs-search-topic-site-home-latest"
+              aria-flowto="gs-search-topic-site-home-tasks"
+              data-icon-after="&#x25b9;"
+              class="btn gs-search-toolbar-next">Older</button>
+    </div><!--gs-search-topic-site-home-tasks-->
   </div><!--gs-search-->
-  <div id="gs-search-topic-site-home-toolbar" role="toolbar"
-       class="btn-toolbar gs-search-toolbar">
-    <button id="gs-search-topic-site-home-toolbar-prev"
-            aria-controls="gs-search-topic-site-home-latest"
-            aria-flowto="gs-search-topic-site-home-toolbar-next"
-            data-icon="&#x25c3;"
-            class="btn gs-search-toolbar-previous">Newer</button>
-    <ul class="inline-list" id="gs-search-topic-site-home-tasks" 
-        role="navigation">
-      <li>
-        <a type="application/atom+xml" class="alternateATOM icon-alone"
-           tal:define="title string:Posts in ${view/siteInfo/name};"
-           href="/s/search.atom?t=0&amp;f=0&amp;p=1">
-          <span aria-hidden="true" data-icon="&#xe003;"></span>
-          <span class="screen-reader-text">Web feed</span>
-        </a>
-      </li>
-    </ul>
-    <button id="gs-search-topic-site-home-toolbar-next"
-            aria-controls="gs-search-topic-site-home-latest"
-            aria-flowto="gs-search-topic-site-home-tasks"
-            data-icon-after="&#x25b9;"
-            class="btn gs-search-toolbar-next">Older</button>
-  </div><!--gs-search-topic-site-home-tasks-->
 </div><!--gs-search-topic-site-home-->
