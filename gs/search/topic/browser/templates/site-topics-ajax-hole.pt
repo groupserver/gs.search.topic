@@ -1,4 +1,4 @@
-<div id="gs-search-topic-site-home-search" 
+<div id="gs-search-topic-site-home-search"
      class="gs-search search" role="application">
   <div class="gs-search-entry search input-append"
        role="search" aria-controls="gs-search-topic-site-home-latest">
@@ -9,12 +9,18 @@
     <button id="gs-search-topic-site-home-search-button"
             class="btn">Search</button>
   </div><!--gs-group-messages-topics-search-->
-  <p id="gs-search-topic-site-home-loading" 
+  <p id="gs-search-topic-site-home-loading"
      class="gs-search-loading" style="display:none;">
-    <img src="/++resource++anim/wait.gif"/> 
+    <img src="/++resource++anim/wait.gif"/>
     Loading the topics
   </p><!--gs-search-topic-site-home-loading-->
-  <div id="gs-search-topic-site-home-latest" 
+  <p class="gs-search-failed">
+    No topics were found.
+  </p><!--gs-search-failed-->
+  <p class="gs-search-empty muted">
+    There are no visible topics on this site.
+  </p><!--gs-search-empty-->
+  <div id="gs-search-topic-site-home-latest"
        class="gs-search-results">
     &#160;
   </div><!--gs-search-topic-site-home-latest-->
@@ -25,7 +31,7 @@
             aria-flowto="gs-search-topic-site-home-toolbar-next"
             data-icon="&#x25c3;"
             class="btn gs-search-toolbar-previous">Newer</button>
-    <ul class="inline-list" id="gs-search-topic-site-home-tasks" 
+    <ul class="inline-list" id="gs-search-topic-site-home-tasks"
         role="navigation">
       <li>
         <a type="application/atom+xml" class="alternateATOM icon-alone"

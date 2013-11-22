@@ -45,7 +45,10 @@ setup(name='gs.search.topic',
     zip_safe=False,
     install_requires=[
         'setuptools',
+        'zope.browserpage',
         'zope.browserresource',
+        'zope.tal',
+        'zope.tales',
         'zope.viewlet',
         'gs.search.base',  # For the JS
         'gs.site.home',

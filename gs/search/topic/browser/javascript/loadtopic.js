@@ -7,6 +7,6 @@ function gs_search_topics_site_homepage () {
     topicSearch.load();
 }
 jQuery(document).ready( function () {
-    gsJsLoader.with_module('/++resource++gs-search-base-js-min-20121217.js',
+    gsJsLoader.with_module('/++resource++gs-search-base-js-min-20131121.js',
                            gs_search_topics_site_homepage);
 });

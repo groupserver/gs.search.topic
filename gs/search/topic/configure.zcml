@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<configure xmlns="http://namespaces.zope.org/zope"
-  xmlns:browser="http://namespaces.zope.org/browser"
-  xmlns:five="http://namespaces.zope.org/five"
-  i18n_domain="groupserver">
+<!-- Copyright © 2013 OnlineGroups.net and Contributors. -->
+<!-- All Rights Reserved. -->
 
-  <!--The viewlet for the site homepage-->  
-  <browser:viewlet 
+<!-- This software is subject to the provisions of the Zope Public -->
+<!-- License, Version 2.1 (ZPL).  A copy of the ZPL should accompany this -->
+<!-- distribution. -->
+
+<!-- THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED -->
+<!-- WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED -->
+<!-- WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND -->
+<!-- FITNESS FOR A PARTICULAR PURPOSE. -->
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:browser="http://namespaces.zope.org/browser"
+           i18n_domain="groupserver">
+
+  <include package="zope.viewlet" file="meta.zcml" />
+
+  <!--The viewlet for the site homepage-->
+  <browser:viewlet
     name="gs-search-topic-site-topics-ajax-hole"
     manager="gs.site.home.interfaces.ISiteHomeActivity"
     template="browser/templates/site-topics-ajax-hole.pt"
@@ -15,15 +27,15 @@
     title="Topics" />
   <!--The JavaScript to hide the right-column if there are not topics-->
   <browser:resource
-    name="gs-search-topic-site-homepage-20120606.js"
+    name="gs-search-topic-site-homepage-20131121.js"
     file="browser/javascript/loadtopic.js"
     permission="zope2.Public" />
   <browser:resource
-    name="gs-search-topic-site-homepage-min-20120606.js"
+    name="gs-search-topic-site-homepage-min-20131121.js"
     file="browser/javascript/loadtopic-min.js"
     permission="zope2.Public" />
   <!--The viewlet to include all the JavaScript-->
-  <browser:viewlet 
+  <browser:viewlet
     name="gs-search-topic-site-topics-javascript"
     manager="gs.site.home.interfaces.ISiteHomeJS"
     template="browser/templates/site-topics-ajax-js.pt"
@@ -33,7 +45,7 @@
     title="Topics JavaScript" />
 
   <!--The viewlet to link to the Web feed-->
-  <browser:viewlet 
+  <browser:viewlet
     name="gs-search-topic-link"
     manager="gs.site.home.interfaces.ISiteHomeMetadata"
     for="Products.GSContent.interfaces.IGSSiteFolder"
@@ -43,4 +55,3 @@
     weight="10"
     title="Topics Feed" />
 </configure>
-
