@@ -11,8 +11,8 @@
   </div><!--gs-group-messages-topics-search-->
   <p id="gs-search-topic-site-home-loading"
      class="gs-search-loading" style="display:none;">
-    <img src="/++resource++anim/wait.gif"/>
-    Loading the topics
+    <span data-icon="&#xe619;" aria-hidden="true" class="loading"> </span>
+    Loading the topics&#8230;
   </p><!--gs-search-topic-site-home-loading-->
   <p class="gs-search-failed">
     No topics were found.
