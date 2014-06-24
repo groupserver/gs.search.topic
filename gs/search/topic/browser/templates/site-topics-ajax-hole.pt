@@ -31,17 +31,18 @@
             aria-flowto="gs-search-topic-site-home-toolbar-next"
             data-icon="&#x25c3;"
             class="btn gs-search-toolbar-previous">Newer</button>
-    <ul class="inline-list" id="gs-search-topic-site-home-tasks"
-        role="navigation">
-      <li>
-        <a type="application/atom+xml" class="alternateATOM icon-alone"
-           tal:define="title string:Posts in ${view/siteInfo/name};"
-           href="/s/search.atom?t=0&amp;f=0&amp;p=1">
-          <span aria-hidden="true" data-icon="&#xe003;"></span>
-          <span class="screen-reader-text">Web feed</span>
-        </a>
-      </li>
-    </ul>
+    <div id="gs-search-topic-site-home-tasks" role="navigation">
+      <ul class="inline-list">
+        <li>
+          <a type="application/atom+xml" class="alternateATOM icon-alone"
+             tal:define="title string:Posts in ${view/siteInfo/name};"
+             href="/s/search.atom?t=0&amp;f=0&amp;p=1">
+            <span aria-hidden="true" data-icon="&#xe003;"></span>
+            <span class="screen-reader-text">Web feed</span>
+          </a>
+        </li>
+      </ul>
+    </div><!--gs-search-topic-site-home-tasks-->
     <button id="gs-search-topic-site-home-toolbar-next"
             aria-controls="gs-search-topic-site-home-latest"
             aria-flowto="gs-search-topic-site-home-tasks"
