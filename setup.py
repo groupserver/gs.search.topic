@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-# Copyright © 2013 OnlineGroups.net and Contributors.
+# Copyright © 2013, 2014 OnlineGroups.net and Contributors.
 # All Rights Reserved.
 #
 # This software is subject to the provisions of the Zope Public License,
@@ -39,10 +39,10 @@ setup(name='gs.search.topic',
         "Programming Language :: Python",
         "Topic :: Software Development :: Libraries :: Python Modules",
       ],
-    keywords='site groupserver topic message search',
+    keywords='site, groupserver, topic, message, search',
     author='Michael JasonSmith',
     author_email='mpj17@onlinegroups.net',
-    url='http://groupserver.org/',
+    url='https://source.iopen.net/groupserver/gs.search.topic/',
     license='ZPL 2.1',
     packages=find_packages(exclude=['ez_setup']),
     namespace_packages=['gs', 'gs.search', ],
