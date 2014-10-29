@@ -1,23 +1,27 @@
 <div id="gs-search-topic-site-home-search"
+     xmlns:tal="http://xml.zope.org/namespaces/tal"
+     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+     i18n:domain="gs.search.topic"
      class="gs-search search" role="application">
   <div class="gs-search-entry search input-append"
        role="search" aria-controls="gs-search-topic-site-home-latest">
     <input type="search" name="s" placeholder="Search within topics&#8230;"
+           i18n:attributes="placeholder; title"
            autocomplete="on"
            id="gs-search-topic-site-home-input" value=""
            title="Search within topics"/>
     <button id="gs-search-topic-site-home-search-button"
-            class="btn">Search</button>
+            i18n:translate="" class="btn">Search</button>
   </div><!--gs-group-messages-topics-search-->
   <p id="gs-search-topic-site-home-loading"
      class="gs-search-loading" style="display:none;">
     <span data-icon="&#xe619;" aria-hidden="true" class="loading"> </span>
-    Loading the topics&#8230;
+    <tal:block i18n:translate="">Loading the topics&#8230;</tal:block>
   </p><!--gs-search-topic-site-home-loading-->
-  <p class="gs-search-failed">
+  <p class="gs-search-failed" i18n:translate="search-failed">
     No topics were found.
   </p><!--gs-search-failed-->
-  <p class="gs-search-empty muted">
+  <p class="gs-search-empty muted" i18n:translate="no-visible">
     There are no visible topics on this site.
   </p><!--gs-search-empty-->
   <div id="gs-search-topic-site-home-latest"
@@ -29,16 +33,18 @@
     <button id="gs-search-topic-site-home-toolbar-prev"
             aria-controls="gs-search-topic-site-home-latest"
             aria-flowto="gs-search-topic-site-home-toolbar-next"
-            data-icon="&#x25c3;"
+            data-icon="&#x25c3;" i18n:translate="newer"
             class="btn gs-search-toolbar-previous">Newer</button>
     <div id="gs-search-topic-site-home-tasks" role="navigation">
       <ul class="inline-list">
         <li>
           <a type="application/atom+xml" class="alternateATOM icon-alone"
              tal:define="title string:Posts in ${view/siteInfo/name};"
+             i18n:attributes="title"
              href="/s/search.atom?t=0&amp;f=0&amp;p=1">
             <span aria-hidden="true" data-icon="&#xe003;"></span>
-            <span class="screen-reader-text">Web feed</span>
+            <span class="screen-reader-text"
+                  i18n:translate="web-feed">Web feed</span>
           </a>
         </li>
       </ul>
@@ -46,7 +52,7 @@
     <button id="gs-search-topic-site-home-toolbar-next"
             aria-controls="gs-search-topic-site-home-latest"
             aria-flowto="gs-search-topic-site-home-tasks"
-            data-icon-after="&#x25b9;"
+            data-icon-after="&#x25b9;" i18n:translate="older"
             class="btn gs-search-toolbar-next">Older</button>
   </div><!--gs-search-topic-site-home-tasks-->
 </div><!--gs-search-->

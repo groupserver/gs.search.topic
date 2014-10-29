@@ -1,4 +1,8 @@
-<link id="gs-search-topic-link" 
-  rel="alternate" type="application/atom+xml" title="Topics"
-  href="/s/search.atom"
-  tal:attributes="title string:Topics on ${view/siteInfo/name}"/>
+<link id="gs-search-topic-link"
+     xmlns:tal="http://xml.zope.org/namespaces/tal"
+     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+     i18n:domain="gs.search.topic"
+     i18n:attributes="title;"
+     rel="alternate" type="application/atom+xml" title="Topics"
+     href="/s/search.atom"
+     tal:attributes="title string:Topics on ${view/siteInfo/name}"/>

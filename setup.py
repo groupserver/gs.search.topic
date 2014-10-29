@@ -54,6 +54,8 @@ setup(
         'setuptools',
         'zope.browserpage',
         'zope.browserresource',
+        'zope.i18n',
+        'zope.i18nmessageid',
         'zope.tal',
         'zope.tales',
         'zope.viewlet',

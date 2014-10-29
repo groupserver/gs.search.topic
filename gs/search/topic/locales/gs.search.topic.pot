@@ -1,0 +1,64 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-10-29 00:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: gs.search.topic\n"
+
+#: ./browser/templates/site-topics-ajax-hole.pt:19
+msgid "Loading the topics&#8230;"
+msgstr ""
+
+#: ./browser/templates/site-topics-ajax-hole.pt:13
+msgid "Search"
+msgstr ""
+
+#: ./browser/templates/site-topics-ajax-hole.pt:8
+msgid "Search within topics"
+msgstr ""
+
+#: ./browser/templates/site-topics-ajax-hole.pt:8
+msgid "Search within topics…"
+msgstr ""
+
+#: ./viewlet.py:22
+msgid "Topics"
+msgstr ""
+
+#. Default: "Newer"
+#: ./browser/templates/site-topics-ajax-hole.pt:33
+msgid "newer"
+msgstr ""
+
+#. Default: "There are no visible topics on this site."
+#: ./browser/templates/site-topics-ajax-hole.pt:24
+msgid "no-visible"
+msgstr ""
+
+#. Default: "Older"
+#: ./browser/templates/site-topics-ajax-hole.pt:52
+msgid "older"
+msgstr ""
+
+#. Default: "No topics were found."
+#: ./browser/templates/site-topics-ajax-hole.pt:21
+msgid "search-failed"
+msgstr ""
+
+#. Default: "Web feed"
+#: ./browser/templates/site-topics-ajax-hole.pt:46
+msgid "web-feed"
+msgstr ""
+
