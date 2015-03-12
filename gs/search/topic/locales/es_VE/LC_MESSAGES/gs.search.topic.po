@@ -1,69 +1,68 @@
 # 
 # Translators:
-# Michael JasonSmith <mpj17@onlinegroups.net>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: gs.search.topic\n"
 "POT-Creation-Date: 2015-03-12 20:49+0000\n"
-"PO-Revision-Date: 2015-03-12 20:53+0000\n"
-"Last-Translator: Michael JasonSmith <mpj17@onlinegroups.net>\n"
-"Language-Team: French (http://www.transifex.com/projects/p/gs-search-topic/language/fr/)\n"
+"PO-Revision-Date: 2015-03-12 20:51+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Spanish (Venezuela) (http://www.transifex.com/projects/p/gs-search-topic/language/es_VE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Domain: DOMAIN\n"
-"Language: fr\n"
+"Language: es_VE\n"
 "Language-Code: en\n"
 "Language-Name: English\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Preferred-Encodings: utf-8 latin1\n"
 
 #. Default: "Loading the topics…"
 #: ./browser/templates/site-topics-ajax-hole.pt:20
 msgid "loading-message"
-msgstr "Chargement des sujets&#8230;"
+msgstr ""
 
 #. Default: "Newer"
 #: ./browser/templates/site-topics-ajax-hole.pt:36
 msgid "newer-button"
-msgstr "Récent"
+msgstr ""
 
 #. Default: "Older"
 #: ./browser/templates/site-topics-ajax-hole.pt:54
 msgid "older-button"
-msgstr "Anciens"
+msgstr ""
 
 #. Default: "Search"
 #: ./browser/templates/site-topics-ajax-hole.pt:14
 msgid "search-button"
-msgstr "Lancez la recherche"
+msgstr ""
 
 #. Default: "No topics were found."
 #: ./browser/templates/site-topics-ajax-hole.pt:23
 msgid "search-failed-message"
-msgstr "Aucune sujet trouvé !"
+msgstr ""
 
 #. Default: "There are no visible topics on this site."
 #: ./browser/templates/site-topics-ajax-hole.pt:26
 msgid "search-no-visible-topics"
-msgstr "Il n'y a aucun sujet dans ce site."
+msgstr ""
 
 #. Default: "Search within topics…"
 #: ./browser/templates/site-topics-ajax-hole.pt:8
 msgid "search-placeholder"
-msgstr "Rechercher dans les sujets&#8230;"
+msgstr ""
 
 #. Default: "Search within topics"
 #: ./browser/templates/site-topics-ajax-hole.pt:8
 msgid "search-title"
-msgstr "Rechercher dans les sujets"
+msgstr ""
 
 #. Default: "Topics"
 #: ./viewlet.py:22
 msgid "topic-area-title"
-msgstr "Sujets"
+msgstr ""
 
 #. Default: "Web feed"
 #: ./browser/templates/site-topics-ajax-hole.pt:48
 msgid "web-feed"
-msgstr "Flux Internet"
+msgstr ""
