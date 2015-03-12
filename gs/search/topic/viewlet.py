@@ -19,4 +19,4 @@ from . import GSMessageFactory as _
 
 class TopicSearchViewlet(SiteViewlet):
     'The viewlet for the "AJAX Hole"'
-    title = _('Topics')
+    title = _('topic-area-title', 'Topics')

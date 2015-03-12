@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-10-29 00:30+0000\n"
+"POT-Creation-Date: 2015-03-12 20:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,48 +14,53 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 
-#: ./browser/templates/site-topics-ajax-hole.pt:19
-msgid "Loading the topics&#8230;"
-msgstr ""
-
-#: ./browser/templates/site-topics-ajax-hole.pt:13
-msgid "Search"
-msgstr ""
-
-#: ./browser/templates/site-topics-ajax-hole.pt:8
-msgid "Search within topics"
-msgstr ""
-
-#: ./browser/templates/site-topics-ajax-hole.pt:8
-msgid "Search within topics…"
-msgstr ""
-
-#: ./viewlet.py:22
-msgid "Topics"
+#. Default: "Loading the topics…"
+#: ./browser/templates/site-topics-ajax-hole.pt:20
+msgid "loading-message"
 msgstr ""
 
 #. Default: "Newer"
-#: ./browser/templates/site-topics-ajax-hole.pt:33
-msgid "newer"
-msgstr ""
-
-#. Default: "There are no visible topics on this site."
-#: ./browser/templates/site-topics-ajax-hole.pt:24
-msgid "no-visible"
+#: ./browser/templates/site-topics-ajax-hole.pt:36
+msgid "newer-button"
 msgstr ""
 
 #. Default: "Older"
-#: ./browser/templates/site-topics-ajax-hole.pt:52
-msgid "older"
+#: ./browser/templates/site-topics-ajax-hole.pt:54
+msgid "older-button"
+msgstr ""
+
+#. Default: "Search"
+#: ./browser/templates/site-topics-ajax-hole.pt:14
+msgid "search-button"
 msgstr ""
 
 #. Default: "No topics were found."
-#: ./browser/templates/site-topics-ajax-hole.pt:21
-msgid "search-failed"
+#: ./browser/templates/site-topics-ajax-hole.pt:23
+msgid "search-failed-message"
+msgstr ""
+
+#. Default: "There are no visible topics on this site."
+#: ./browser/templates/site-topics-ajax-hole.pt:26
+msgid "search-no-visible-topics"
+msgstr ""
+
+#. Default: "Search within topics…"
+#: ./browser/templates/site-topics-ajax-hole.pt:8
+msgid "search-placeholder"
+msgstr ""
+
+#. Default: "Search within topics"
+#: ./browser/templates/site-topics-ajax-hole.pt:8
+msgid "search-title"
+msgstr ""
+
+#. Default: "Topics"
+#: ./viewlet.py:22
+msgid "topic-area-title"
 msgstr ""
 
 #. Default: "Web feed"
-#: ./browser/templates/site-topics-ajax-hole.pt:46
+#: ./browser/templates/site-topics-ajax-hole.pt:48
 msgid "web-feed"
 msgstr ""
 
