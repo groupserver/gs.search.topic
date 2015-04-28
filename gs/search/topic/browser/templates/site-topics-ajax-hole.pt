@@ -1,8 +1,7 @@
 <div id="gs-search-topic-site-home-search"
      xmlns:tal="http://xml.zope.org/namespaces/tal"
      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
-     i18n:domain="gs.search.topic"
-     class="gs-search search" role="application">
+     i18n:domain="gs.search.topic" class="gs-search search">
   <div class="gs-search-entry search input-append"
        role="search" aria-controls="gs-search-topic-site-home-latest">
     <input type="search" name="s" placeholder="Search within topics&#8230;"
