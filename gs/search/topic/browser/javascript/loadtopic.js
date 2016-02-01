@@ -15,6 +15,6 @@ function gs_search_topics_site_homepage() {
     topicSearch.load();
 }
 jQuery(document).ready(function() {
-    gsJsLoader.with_module('/++resource++gs-search-base-js-min-20140313.js',
+    gsJsLoader.with_module('/++resource++gs-search-base-js-min-20160201.js',
                            gs_search_topics_site_homepage);
 });
