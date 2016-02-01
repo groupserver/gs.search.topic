@@ -28,11 +28,11 @@
     weight="10" />
   <!--The JavaScript to hide the right-column if there are not topics-->
   <browser:resource
-    name="gs-search-topic-site-homepage-20140314.js"
+    name="gs-search-topic-site-homepage-20160201.js"
     file="browser/javascript/loadtopic.js"
     permission="zope2.Public" />
   <browser:resource
-    name="gs-search-topic-site-homepage-min-20140314.js"
+    name="gs-search-topic-site-homepage-min-20160201.js"
     file="browser/javascript/loadtopic-min.js"
     permission="zope2.Public" />
   <!--The viewlet to include all the JavaScript-->
