@@ -1,6 +1,18 @@
 Changelog
 =========
 
+2.4.3 (2016-02-02)
+------------------
+
+* [DE] Updating the German translation, thanks to Alice
+* Following the update to `gs.search.base`_
+* Updating the JavaScript that loads the *Topics* tab so it
+  passes the `Google Closure Linter`_
+
+.. _gs.search.base: https://github.com/groupserver/gs.search.base
+.. _Google Closure Linter:
+   https://developers.google.com/closure/utilities/
+
 2.4.2 (2015-04-28)
 ------------------
 
