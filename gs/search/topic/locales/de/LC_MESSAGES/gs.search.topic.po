@@ -1,12 +1,13 @@
 # 
 # Translators:
+# Alice Rose <heldinz@posteo.de>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: gs.search.topic\n"
 "POT-Creation-Date: 2015-03-12 20:49+0000\n"
-"PO-Revision-Date: 2015-03-12 20:51+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/gs-search-topic/language/de/)\n"
+"PO-Revision-Date: 2015-10-14 23:20+0000\n"
+"Last-Translator: Alice Rose <heldinz@posteo.de>\n"
+"Language-Team: German (http://www.transifex.com/groupserver/gs-search-topic/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,49 +21,49 @@ msgstr ""
 #. Default: "Loading the topics…"
 #: ./browser/templates/site-topics-ajax-hole.pt:20
 msgid "loading-message"
-msgstr ""
+msgstr "Themen laden&#8230;"
 
 #. Default: "Newer"
 #: ./browser/templates/site-topics-ajax-hole.pt:36
 msgid "newer-button"
-msgstr ""
+msgstr "neuer"
 
 #. Default: "Older"
 #: ./browser/templates/site-topics-ajax-hole.pt:54
 msgid "older-button"
-msgstr ""
+msgstr "älter"
 
 #. Default: "Search"
 #: ./browser/templates/site-topics-ajax-hole.pt:14
 msgid "search-button"
-msgstr ""
+msgstr "Suchen"
 
 #. Default: "No topics were found."
 #: ./browser/templates/site-topics-ajax-hole.pt:23
 msgid "search-failed-message"
-msgstr ""
+msgstr "Keine Themen gefunden."
 
 #. Default: "There are no visible topics on this site."
 #: ./browser/templates/site-topics-ajax-hole.pt:26
 msgid "search-no-visible-topics"
-msgstr ""
+msgstr "Keine Themen sind auf dieser Seite sichtbar."
 
 #. Default: "Search within topics…"
 #: ./browser/templates/site-topics-ajax-hole.pt:8
 msgid "search-placeholder"
-msgstr ""
+msgstr "Innerhalb von Themen suchen…"
 
 #. Default: "Search within topics"
 #: ./browser/templates/site-topics-ajax-hole.pt:8
 msgid "search-title"
-msgstr ""
+msgstr "Innerhalb von Themen suchen"
 
 #. Default: "Topics"
 #: ./viewlet.py:22
 msgid "topic-area-title"
-msgstr ""
+msgstr "Themen"
 
 #. Default: "Web feed"
 #: ./browser/templates/site-topics-ajax-hole.pt:48
 msgid "web-feed"
-msgstr ""
+msgstr "Web-Feed"
